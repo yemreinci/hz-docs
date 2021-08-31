@@ -79,7 +79,7 @@ Federated queries are those that join tables from different datasets. Normally, 
 
 To allow you to query data in sources other than distributed maps in a cluster, Hazelcast uses the concept of mappings.
 
-A mapping is a connection to a data source about which tells Hazelcast about the source's data model, data access patterns, and serialization formats. Hazelcast uses these mappings to access resources in these data sources as if they were SQL tables.
+A mapping is a connection to a data source that tells Hazelcast about the source's data model, data access patterns, and serialization formats. Hazelcast uses these mappings to access resources in these data sources as if they were SQL tables.
 
 Hazelcast provides connectors that allow you to create mappings to Apache Kafka, your local file system, and distributed maps. Using these mappings, you can run SQL queries against data in these data sources.
 
